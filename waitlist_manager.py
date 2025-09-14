@@ -119,6 +119,6 @@ waitlist_generator()
 '''
 #This program, known as the waitlist manager, uses a linked list to manage the names of customers. These "customers" are represented by something called a node, which stores their names in the list. My list class keeps track of everything through pointers, which refer to the nodes. The order of everything follows each node from start to end, like adding a customer, adding a customer to the end, removing a customer, printing the list, and exiting.
 #The head is the starting point of the list; if the list is empty, the head is set to "None". When a new customer is added to my list, the head gets updated to a new node. The head allows us to keep track of the first customer, and from there, we can follow everything else in our list.
-#A real engineer may need a list like this when dealing with a lot of removing/deleting a bunch of things quite often. They may also use a list like this when dealing with dynamic data that may change often, or when the size of everything is unknown. 
+#A real engineer may need a list like this when dealing with a lot of removing/deleting a bunch of things quite often. They may also use a list like this when dealing with dynamic data that may change often, or when the size of everything is unknown. I do know a resturant manager could use this system to manage their customer waitlists effectively and quickly.
 
 '''
